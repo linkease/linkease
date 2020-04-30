@@ -74,7 +74,7 @@
 1. Windows（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEaseWin.zip)）
 2. macOS（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEase.dmg)）
 3. iOS（[2.1全新开发中，暂时使用家家云](https://testflight.apple.com/join/YfsgRTZV)）
-4. Android（TODO 上传中）
+4. Android（[2.1开发中，临时版本下载](https://firmware.koolshare.cn/binary/LInkEase/Client/linkease.apk)）
 5. Android-TV（未开发）
 6. Linux 命令行版本（等待发布）
 
@@ -131,7 +131,6 @@ TODO manual 文档实现
 ## 赞助
 
 易有云是一个商业产品，应该合理收费来维持背后的团队的研发与运营。但是因为功能特性太多，导致研发一直无法开发收费与订单模块。如果用户对我们这个项目有足够信心，请赞助我们！
-
 
 
 

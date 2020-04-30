@@ -1,3 +1,8 @@
+# 最重要的写在最前面
+
+1. 易有云 2.0 还远未完善，目前是体验版，体验版！对于要求比较高的请等待正式版
+2. 目前使用难度还比较大，请等待更多的使用教程再来使用
+
 # Linkease
 
 易有云 2.0 相关文档与信息
@@ -53,9 +58,7 @@
 
 ### 存储端下载
 
-TODO 
-
-1. 威联通
+1. 威联通（[下载](https://firmware.koolshare.cn/binary/LInkEase/QNAP/)）
 2. 群晖
 3. Koolshare Merlin 
 4. Koolshare 软路由
@@ -68,8 +71,8 @@ TODO
 
 TODO
 
-1. Windows
-2. macOS
+1. Windows（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEaseWin.zip)）
+2. macOS（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEase.dmg)）
 3. iOS
 4. Android
 5. Android-TV

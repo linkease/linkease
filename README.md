@@ -66,7 +66,7 @@
 6. Docker
 7. ReadyNAS
 8. 树莓派
-9. Linux 通用版本（TODO）
+9. Linux 通用版本（[下载](https://firmware.koolshare.cn/binary/LInkEase/LinuxStorage)）
 
 ### 终端下载
 
@@ -77,6 +77,7 @@ TODO
 3. iOS（[2.1全新开发中，暂时使用家家云](https://testflight.apple.com/join/YfsgRTZV)）
 4. Android（TODO 上传中）
 5. Android-TV（未开发）
+6. Linux 命令行版本（等待发布）
 
 ## 易有云 2.0 所有特性
 

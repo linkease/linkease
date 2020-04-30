@@ -71,8 +71,6 @@
 
 ### 终端下载
 
-TODO
-
 1. Windows（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEaseWin.zip)）
 2. macOS（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEase.dmg)）
 3. iOS（[2.1全新开发中，暂时使用家家云](https://testflight.apple.com/join/YfsgRTZV)）
@@ -102,7 +100,16 @@ TODO
 
 ## 帮助文档
 
-TODO
+我们产品人员还没有写好使用手册，同时我们产品也还没有开发好安装向导，我暂时写一个简单的教程：
+
+1. 先用 iOS 或者 Andriod 注册一个账号（目前仅支持手机号，微信不支持
+2. 然后用 QNAP 或者 Linux 通用版安装一个存储端（必须有个存储端）
+3. 访问存储端设备的 http://ip:8897/preweb/ 可以看到二维码或者序列号（本来这里应该有个安装向导，目前暂时没实现）
+4. 用手机扫码，或者用 Windows macOS 端添加设备，输入序列号
+5. 终端与存储端绑定成功，存储端的第一个用户为设备管理员，进一步可以分享设备给其他用户
+6. 目前电脑端功能相对好一些，手机端的 UI 跟交互将全部改版，请期待
+
+TODO manual 文档实现
 
 ## 收费价格
 

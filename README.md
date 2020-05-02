@@ -60,24 +60,24 @@
 
 ### 存储端下载
 
-1. 威联通（[下载](https://firmware.koolshare.cn/binary/LInkEase/QNAP/)）
-2. 群晖
+1. 威联通（[下载](https://firmware.koolshare.cn/binary/LinkEase/QNAP/)）
+2. 群晖（[下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)）
 3. Koolshare Merlin 
 4. Koolshare 软路由
 5. 宝塔面板
 6. Docker
 7. ReadyNAS
 8. 树莓派
-9. Linux 通用版本（[下载](https://firmware.koolshare.cn/binary/LInkEase/LinuxStorage)）
+9. Linux 通用版本（[下载](https://firmware.koolshare.cn/binary/LinkEase/LinuxStorage)）
 10. Window 存储端
 11. MacOS 存储端
 
 ### 终端下载
 
-1. Windows（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEaseWin.zip)）
-2. macOS（[下载](https://firmware.koolshare.cn/binary/LInkEase/Client/LinkEase.dmg)）
+1. Windows（[下载](https://firmware.koolshare.cn/binary/LnkEase/Client/LinkEaseWin.zip)）
+2. macOS（[下载](https://firmware.koolshare.cn/binary/LinkEase/Client/LinkEase.dmg)）
 3. iOS（[2.1全新开发中，暂时使用家家云](https://testflight.apple.com/join/YfsgRTZV)）
-4. Android（[2.1开发中，临时版本下载](https://firmware.koolshare.cn/binary/LInkEase/Client/linkease.apk)）
+4. Android（[2.1开发中，临时版本下载](https://firmware.koolshare.cn/binary/LinkEase/Client/linkease.apk)）
 5. Android-TV（未开发）
 6. Linux 命令行版本（等待发布）
 

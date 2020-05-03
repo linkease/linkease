@@ -75,7 +75,7 @@
 
 ### 终端下载
 
-1. Windows（[下载](https://firmware.koolshare.cn/binary/LnkEase/Client/LinkEaseWin.zip)）
+1. Windows（[下载](https://firmware.koolshare.cn/binary/LinkEase/Client/LinkEaseWin.zip)）
 2. macOS（[下载](https://firmware.koolshare.cn/binary/LinkEase/Client/LinkEase.dmg)）
 3. iOS（[2.1全新开发中，暂时使用家家云](https://testflight.apple.com/join/YfsgRTZV)）
 4. Android（[2.1开发中，临时版本下载](https://firmware.koolshare.cn/binary/LinkEase/Client/linkease.apk)）

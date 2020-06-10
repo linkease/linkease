@@ -63,7 +63,7 @@
 
 1. 威联通（[下载](https://firmware.koolshare.cn/binary/LinkEase/QNAP/)）
 2. 群晖（[下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)）
-3. Koolshare Merlin 
+3. Koolshare Merlin （软件中心可以下载）
 4. Koolshare 软路由
 5. 宝塔面板
 6. Docker
@@ -85,6 +85,12 @@
 ### 更新日志
 
 #### 存储端
+
+##### 0.2.73
+1. 更新了新的绑定方式，支持 web 端绑定
+2. 更新了绑定方式，支持手机自动发现局域网设备并绑定
+3. 支持硬盘列表选择
+4. 支持修改共享目录
 
 ##### 0.2.70
 

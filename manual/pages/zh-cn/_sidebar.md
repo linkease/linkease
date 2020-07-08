@@ -3,6 +3,7 @@
 * 产品亮点
   * [简单到小白可上手](/zh-cn/features/easy-configuration)
   * [传输极快](/zh-cn/features/faster-transport)
+  * [自动备份手机相册](/zh-cn/features/photo-backup)
   * [多设备统一管理](/zh-cn/features/unified-management)
   * [全平台播放器支持](/zh-cn/features/player)
   * [支持百款存量的硬件产品](/zh-cn/features/more-devices)

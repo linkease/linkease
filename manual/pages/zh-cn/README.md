@@ -4,7 +4,9 @@
 
 未来官网地址： [https://www.linkease.com](https://www.linkease.com) （目前还没启用）
 
-问题请反馈到：[https://github.com/koolshare/linkease/issues](https://github.com/koolshare/linkease/issues)
+客户端下载：
+
+存储端下载：
 
 ## 易有云 2.0 介绍
 
@@ -85,63 +87,27 @@ Koolshare Merlin 之所以火起来，并且让 Merlin 项目本身火起来，�
 
 一个登录的账号，一个用户可以在多个终端登录。
 
-## 易有云下载
-
-### 存储端下载
-
-1. 威联通（[下载](https://firmware.koolshare.cn/binary/LinkEase/QNAP/)）
-2. 群晖（[下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)）
-3. Koolshare Merlin （软件中心可以下载）
-4. Koolshare 软路由
-5. 宝塔面板
-6. Docker
-7. ReadyNAS
-8. 树莓派
-9. Linux 通用版本（[下载](https://firmware.koolshare.cn/binary/LinkEase/LinuxStorage)）
-10. Window 存储端（内置在 Windows 客户端，手动启用存储端）
-11. MacOS 存储端（内置在 Windows 客户端，手动启用存储端）
-
-### 终端下载
-
-1. Windows（[下载](https://firmware.koolshare.cn/binary/LinkEase/Client/LinkEaseWin.zip)）
-2. macOS（[下载](https://firmware.koolshare.cn/binary/LinkEase/Client/LinkEase.dmg)）
-3. iOS（[2.1全新开发中，暂时使用家家云](https://apps.apple.com/cn/app/id1479713220)）
-4. Android（[2.1开发中，临时版本下载](https://firmware.koolshare.cn/binary/LinkEase/Client/linkease.apk)）
-5. Android-TV（未开发）
-6. Linux 命令行版本（等待发布）
-
-### 更新日志
-
-#### 存储端
-
-##### 0.2.81
-1. 优化底层通信
-2. 更友善的支持用户设备的绑定
-3. 可以显示设备的容量等
-4. 修复双向同步的 BUG
-5. 更新新的 UI
-
-##### 0.2.73
-1. 更新了新的绑定方式，支持 web 端绑定
-2. 更新了绑定方式，支持手机自动发现局域网设备并绑定
-3. 支持硬盘列表选择
-4. 支持修改共享目录
-
-##### 0.2.70
-
-1. 更新了 Windows 客户端，QNAP、Synology，Linux 通用版存储端
-2. Windows 端支持自动检索局域网未绑定的设备，然后添加进行绑定
-3. 更新客户端与存储端之后，支持目录更改！
-
-下个版本更新目标：二进制自动更新能力！
-
-##### 0.2.68
-
-修复序列号的错误，导致无法绑定设备
-
 ## 易有云产品功能列表
+| 序号|功能|描述|支持的主机类型|
+|-|-|-|-|
+|1|增量传输|每次只计算传输改动部分，省流量，省时间|路由器、PC、NAS|
+|2|大文件上传|单次上传支持20G大文件|路由器、PC、NAS|
+|3|批量上传无限制|客户端单次上传，不限制文件数量|路由器、PC、NAS|
+|4|多文件在线压缩|多文件自动合并压缩|路由器、PC、NAS|
+|5|在线解压|客户端压缩包文件无需下载，在线解压|路由器、PC、NAS|
+|6|自动备份|手机专享视频及图片备份，支持原画级别|路由器、PC、NAS|
+|7|一键备份|一键上传终端文件，即时操作，自动去重|路由器、PC、NAS|
+|8|文件智能分类|智能识别文件格式，标签分类更丰富|NAS|
+|9|文件同步|本地文件变动自动同步到云端，无需手动操作|路由器、PC、NAS|
+|10|多云端同步|支持跟百度云、azure 云、Google Cloud 等公有云数据同步|暂未开放|
+|11|跨设备传输|多设备间文件可在线互转|路由器、PC、NAS|
+|12|多人共享设备|一台设备可供多人使用，不仅仅满足个人需求，更满足家庭需求|路由器、PC、NAS|
+|13|视频倍速播放|快慢轻松切换，一手掌握看剧速度|路由器、PC、NAS|
+|14|视频外挂字幕|视频语言随心换|路由器、PC、NAS|
+|15|复制文件至终端任意文件夹|客户端可直接复制设备文件，到本地终端的任一文件夹，方便用户查找管理。|Andorid|
+|16|微信文件传输至设备|可直接在微信中将文件传输至设备|iOS|
 
-TODO
+[查看更多易有云功能细节](/zh-cn/function/FunctionalDetails.md)
 
 ## 收费价格
 

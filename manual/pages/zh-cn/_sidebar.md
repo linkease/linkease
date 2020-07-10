@@ -19,12 +19,12 @@
   * [TODO](/zh-cn/android-tv/TODO)
 
 * 存储端安装教程
-  * [Synology](/zh-cn/mobile/TODO)
+  * [Synology](/zh-cn/course/NAS/Synology.md)
   * [QNAP](/zh-cn/mobile/TODO)
   * [ReadyNAS](/zh-cn/mobile/TODO)
-  * [Koolshare Merlin](/zh-cn/mobile/TODO)
+  * [Koolshare Merlin](/zh-cn/tutorial/NAS/KoolshareMerlin.md)
   * [Koolshare Lede](/zh-cn/mobile/TODO)
-  * [软路由 Openwrt 通用版](/zh-cn/mobile/TODO)
+  * [软路由Openwrt通用版](/zh-cn/course/NAS/软路由Openwrt通用版.md)
   * [Linux 通用版](/zh-cn/mobile/TODO)
   * [宝塔面板](/zh-cn/mobile/TODO)
   * [树莓派](/zh-cn/mobile/TODO)

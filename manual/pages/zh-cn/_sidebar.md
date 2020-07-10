@@ -1,6 +1,7 @@
 * [**功能介绍**](/zh-cn/README.md)
 
 * 产品亮点
+  * [功能预览](/zh-cn/features/preview.md)
   * [简单到小白可上手](/zh-cn/features/easy-configuration)
   * [传输极快](/zh-cn/features/faster-transport)
   * [自动备份手机相册](/zh-cn/features/photo-backup)

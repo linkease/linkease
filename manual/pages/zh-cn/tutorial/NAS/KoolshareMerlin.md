@@ -2,7 +2,7 @@
 ### 以NETGEAR RAX80为例：
 
 #### 1.登录NETGEAR RAX80固件管理端，点击“软件中心”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；
-![1.png](KoolshareMerlin_md_files/2-2.jpg?v=1&type=image)
+![输入图片描述](KoolshareMerlin_md_files/2-2.jpg?v=1&type=image)
 
 #### 2.选中“易有云”，点击“安装”，安装易有云插件；
 ![输入图片描述](KoolshareMerlin_md_files/2-1.jpg?v=1&type=image)

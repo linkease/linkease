@@ -4,7 +4,7 @@
 
 更多信息请到官网： [https://www.linkease.com](https://www.linkease.com) 
 
-功能预览：
+提前预览功能：[功能预览](#/zh-cn/features/preview)
 
 问题反馈：[issues](https://github.com/koolshare/linkease/issues)
 

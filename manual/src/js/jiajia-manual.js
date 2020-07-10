@@ -36,16 +36,6 @@ window.$docsify = {
             '/',            // => /README.md
             '/en-us/',      // => /get-started.md
             '/zh-cn/',      // => /zh-cn/README.md
-            '/zh-cn/doubt/devices',
-            '/zh-cn/doubt/remove',
-            '/zh-cn/doubt/upload-dir',
-            '/zh-cn/doubt/backup',
-            '/zh-cn/doubt/shared',
-            '/zh-cn/doubt/download-dir',
-            '/zh-cn/pc/upload-dir',
-            '/zh-cn/pc/file-management',
-            '/zh-cn/pc/file-sync',
-            '/zh-cn/pc/cancel-sync',
         ], // or 'auto'
         // 支持本地化
         placeholder: {

@@ -1,5 +1,7 @@
 **Koolshare Merlin （ 以NETGEAR RAX80为例）**
 
+ [存储端下载](/zh-cn/android-tv/TODO)
+
 **1.登录NETGEAR RAX80固件管理端，点击“软件中心”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；**
 
 ![输入图片描述](KoolshareMerlin_md_files/2-2.jpg?v=1&type=image)

@@ -4,7 +4,7 @@
 
 更多信息请到官网： [https://www.linkease.com](https://www.linkease.com) 
 
-功能预览：
+功能预览：[产品截图](https://www.ddnsto.com/linkease/#/zh-cn/features/preview)
 
 问题反馈：[issues](https://github.com/koolshare/linkease/issues)
 
@@ -14,7 +14,7 @@
 
 2. [存储端下载](https://www.ddnsto.com/linkease/download/#/disk)
 
-![QQ群介绍图.png](./README/QQ群介绍图.png)
+![QQ群介绍图.png](http://127.0.0.1:52614/fileserve/E541109C/share/linkease/manual/pages/zh-cn/README/QQ%E7%BE%A4%E4%BB%8B%E7%BB%8D%E5%9B%BE.png)
 
 ## 易有云 2.0 介绍
 

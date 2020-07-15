@@ -14,4 +14,4 @@
 
 2. [存储端下载](https://www.ddnsto.com/linkease/download/#/disk)
 
-![QQ群介绍图.png](https://www.ddnsto.com/linkease/pages/zh-cn/README/QQ%E7%BE%A4%E4%BB%8B%E7%BB%8D%E5%9B%BE.png)
+![QQ群介绍图](manual/pages/zh-cn/README/QQ%E7%BE%A4%E4%BB%8B%E7%BB%8D%E5%9B%BE.png?raw=true)

@@ -11,6 +11,7 @@
   * [数据安全](/zh-cn/features/data-security.md)
 
 * 移动端基础教程
+  * [如何绑定设备？](/zh-cn/mobile/TODO)
   * [TODO](/zh-cn/mobile/TODO)
 
 * PC 端基础教程

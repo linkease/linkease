@@ -4,7 +4,7 @@
 
 更多信息请到官网： [https://www.linkease.com](https://www.linkease.com) 
 
-提前预览功能：[功能预览](https://www.ddnsto.com/linkease/#/zh-cn/features/preview)
+功能预览：
 
 问题反馈：[issues](https://github.com/koolshare/linkease/issues)
 
@@ -14,13 +14,15 @@
 
 2. [存储端下载](https://www.ddnsto.com/linkease/download/#/disk)
 
+![QQ群介绍图.png](./README/QQ群介绍图.png)
+
 ## 易有云 2.0 介绍
 
 ### 使命
 
 帮用户解决：流媒体数据越来越多，而存储、管理、备份的难度越来越大的矛盾。
 
-### 解决痛点
+### 项目优势
 
 1. 手机相片越来越多，而公有云盘越来越慢
 2. 私有云存储搭建太专业，外网访问设置很麻烦

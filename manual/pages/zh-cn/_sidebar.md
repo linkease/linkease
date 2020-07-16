@@ -9,12 +9,15 @@
   * [全平台播放器支持](/zh-cn/features/player.md)
   * [支持百款存量的硬件产品](/zh-cn/features/more-devices.md)
   * [数据安全](/zh-cn/features/data-security.md)
+  * [在线编辑Markdown文档](/zh-cn/features/Markdown编辑教程.md)
 
 * 移动端基础教程
   * [如何绑定设备？](/zh-cn/mobile/TODO)
   * [TODO](/zh-cn/mobile/TODO)
 
 * PC 端基础教程
+  * [如何设置管理同步文件？](/zh-cn/tutorial/pc/file-sync.md)
+  * [如何在线创建、编辑和预览Markdown文档？](/zh-cn/tutorial/pc/Markdown.md)
   * [TODO](/zh-cn/mobile/TODO)
 
 * Android TV 端基础教程
@@ -41,5 +44,4 @@
 
 * 常见问题
   * [1.0 升级 2.0 方案](/zh-cn/question/upgrade.md)
-
-* 用户反馈
+*[**用户反馈**](/zh-cn/UserFeedback/Feedback.md)

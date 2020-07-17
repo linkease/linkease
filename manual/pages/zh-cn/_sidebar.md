@@ -12,15 +12,20 @@
   * [在线编辑Markdown文档](/zh-cn/features/Markdown编辑教程.md)
 
 * 移动端基础教程
-  * [如何绑定设备？](/zh-cn/mobile/TODO)
-  * [TODO](/zh-cn/mobile/TODO)
+  * [管理员如何绑定和共享设备？](/zh-cn/tutorial/App/devices.md)
+  * [如何解绑和取消共享？](/zh-cn/tutorial/App/remove.md)
+  * [管理员如何设置用户文件目录？](/zh-cn/mobile/TODO)
+  * [微信与设备文件如何互传？](/zh-cn/mobile/TODO)
+  * [一键备份与自动备份有什么区别？](/zh-cn/tutorial/App/backup.md)
 
 * PC 端基础教程
   * [如何设置管理同步文件？](/zh-cn/tutorial/pc/file-sync.md)
   * [如何在线创建、编辑和预览Markdown文档？](/zh-cn/tutorial/pc/Markdown.md)
+  * [如何将本地电脑作为存储端设备绑定？](/zh-cn/tutorial/pc/Markdown.md) 
   * [TODO](/zh-cn/mobile/TODO)
 
 * Android TV 端基础教程
+  * [TODO](/zh-cn/android-tv/TODO)
   * [TODO](/zh-cn/android-tv/TODO)
 
 * 存储端安装教程

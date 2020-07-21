@@ -14,25 +14,25 @@
 * 移动端基础教程
   * [管理员如何绑定和共享设备？](/zh-cn/tutorial/App/devices.md)
   * [如何解绑和取消共享？](/zh-cn/tutorial/App/remove.md)
-  * [管理员如何设置用户文件目录？](/zh-cn/mobile/TODO)
-  * [微信与设备文件如何互传？](/zh-cn/mobile/TODO)
+  * [管理员如何设置用户目录？](/zh-cn/tutorial/App/DirectorySettings.md)
   * [一键备份与自动备份有什么区别？](/zh-cn/tutorial/App/backup.md)
+  * [如何传输微信文件至易有云？](/zh-cn/tutorial/App/WeChatUpload.md)
 
 * PC 端基础教程
   * [如何设置管理同步文件？](/zh-cn/tutorial/pc/file-sync.md)
   * [如何在线创建、编辑和预览Markdown文档？](/zh-cn/tutorial/pc/Markdown.md)
-  * [如何将本地电脑作为存储端设备绑定？](/zh-cn/tutorial/pc/Markdown.md) 
-  * [TODO](/zh-cn/mobile/TODO)
+  * [如何将本地电脑作为存储端设备绑定？](/zh-cn/tutorial/pc/OpenStorage.md) 
+  * [管理员如何设置用户目录？](/zh-cn/tutorial/pc/DirectorySettings.md)
+  * [如何找到下载后的文件？ ](/zh-cn/tutorial/pc/download.md) 
 
-* Android TV 端基础教程
-  * [TODO](/zh-cn/android-tv/TODO)
+* Android TV 端基础教程（暂无）
   * [TODO](/zh-cn/android-tv/TODO)
 
 * 存储端安装教程
-  * [Synology](/zh-cn/tutorial/NAS/Synology.md)
+  * [Synology](/zh-cn/tutorial/NAS/Synology.md)(已完成)
   * [QNAP](/zh-cn/tutorial/NAS/Qnap.md)
   * [ReadyNAS](/zh-cn/tutorial/NAS/ReadyNAS.md)
-  * [Koolshare Merlin](/zh-cn/tutorial/NAS/KoolshareMerlin.md)
+  * [Koolshare Merlin](/zh-cn/tutorial/NAS/KoolshareMerlin.md)（已完成）
   * [Koolshare Lede](/zh-cn/tutorial/NAS/KoolshareLede.md)
   * [软路由Openwrt通用版](/zh-cn/tutorial/NAS/软路由Openwrt通用版.md)
   * [Linux 通用版](/zh-cn/tutorial/NAS/linux.md)
@@ -42,11 +42,13 @@
   * [玩客云](/zh-cn/mobile/TODO)
   * [小米路由](/zh-cn/mobile/TODO)
   * [其它](/zh-cn/mobile/TODO)
+  * [易有云存储端统一绑定教程](/zh-cn/tutorial/NAS/BindingSoftware.md)（已完成）
 
-* 客户端下载
-
-* 存储端下载
+* 下载中心
+  * [客户端下载](https://www.ddnsto.com/linkease/download/)
+  * [存储端下载](https://www.ddnsto.com/linkease/download/#/disk)
 
 * 常见问题
   * [1.0 升级 2.0 方案](/zh-cn/question/upgrade.md)
-*[**用户反馈**](/zh-cn/UserFeedback/Feedback.md)
+
+* [**用户反馈**](/zh-cn/UserFeedback/Feedback.md)

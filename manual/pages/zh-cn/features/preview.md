@@ -1,4 +1,4 @@
-## 功能预览
+## 易有云功能预览
 
 ### 手机（iOS & Android)
 
@@ -64,7 +64,7 @@
 
 **13.可切换至本机终端，管理本机文件，实现终端与设备间文件互转（Android）**
 
-![本机.jpg](./preview/本机.jpg)
+![ab.jpg](./preview/ab.jpg)
 
 
 ### PC (MacOS & Windows)

@@ -16,7 +16,7 @@
   * [如何解绑和取消共享？](/zh-cn/tutorial/App/remove.md)
   * [管理员如何设置用户目录？](/zh-cn/tutorial/App/DirectorySettings.md)
   * [一键备份与自动备份有什么区别？](/zh-cn/tutorial/App/backup.md)
-  * [如何传输微信文件至易有云？](/zh-cn/tutorial/App/WeChatUpload.md)
+  * [如何实现文件在微信与易有云之间的互传（iOS）？](/zh-cn/tutorial/App/WeChat.md)
 
 * PC 端基础教程
   * [如何设置管理同步文件？（路由器暂不支持）](/zh-cn/tutorial/pc/file-sync.md)
@@ -33,7 +33,7 @@
   * [QNAP](/zh-cn/tutorial/NAS/Qnap.md)
   * [ReadyNAS](/zh-cn/tutorial/NAS/ReadyNAS.md)
   * [Koolshare Merlin](/zh-cn/tutorial/NAS/KoolshareMerlin.md)（已完成）
-  * [Koolshare Lede](/zh-cn/tutorial/NAS/KoolshareLede.md)
+  * [Koolshare Lede](/zh-cn/tutorial/NAS/KoolshareLede.md)（已完成）
   * [软路由Openwrt通用版](/zh-cn/tutorial/NAS/软路由Openwrt通用版.md)
   * [Linux 通用版](/zh-cn/tutorial/NAS/linux.md)
   * [宝塔面板](/zh-cn/mobile/TODO)

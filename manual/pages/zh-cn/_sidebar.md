@@ -35,10 +35,10 @@
   * [Koolshare Merlin](/zh-cn/tutorial/NAS/KoolshareMerlin.md)（已完成）
   * [Koolshare Lede](/zh-cn/tutorial/NAS/KoolshareLede.md)（已完成）
   * [软路由Openwrt通用版](/zh-cn/tutorial/NAS/软路由Openwrt通用版.md)
-  * [Linux 通用版](/zh-cn/tutorial/NAS/linux.md)
+  * [Linux通用版](/zh-cn/tutorial/NAS/Linux.md)（已完成）
   * [宝塔面板](/zh-cn/mobile/TODO)
   * [树莓派](/zh-cn/mobile/TODO)
-  * [N1 盒子](/zh-cn/mobile/TODO)
+  * [N1盒子](/zh-cn/mobile/TODO)
   * [玩客云](/zh-cn/mobile/TODO)
   * [小米路由](/zh-cn/mobile/TODO)
   * [其它](/zh-cn/mobile/TODO)

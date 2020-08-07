@@ -2,6 +2,8 @@
 
 **1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，此处选择"X86"；**
 
+<font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br />
+
 ![sy0.png](./Synology/sy0.png)
 
 **2.登录群晖操作系统，点击套件中心，在出现的套件中心弹窗上点击“手动安装”；**

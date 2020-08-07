@@ -1,8 +1,11 @@
 # Linux 通用版
 [存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/Synology/)
 
+<font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br />
+
 
 **1.首先在命令窗口中登录您的linux系统**
+
 <font color="#ff0000">以下按照我本机上的文件目录作为解说：</font><br />
 
 **2.在光标后输入“cd mtb” ，点击回车，进入mtb目录中（mtb为您下载文件后存放的目标目录）。输入“ls”确认；**

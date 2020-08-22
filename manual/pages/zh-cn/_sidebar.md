@@ -17,6 +17,7 @@
   * [管理员如何设置用户目录？](/zh-cn/tutorial/App/DirectorySettings.md)
   * [一键备份与自动备份有什么区别？](/zh-cn/tutorial/App/backup.md)
   * [如何实现文件在微信与易有云之间的互传（iOS）？](/zh-cn/tutorial/App/WeChat.md)
+  * [如何用易有云连接SAMBA (Android)？](/zh-cn/tutorial/App/SAMBA.md)
 
 * PC 端基础教程
   * [如何设置管理同步文件？（路由器暂不支持）](/zh-cn/tutorial/pc/file-sync.md)
@@ -52,6 +53,7 @@
   * [1.0 升级 2.0 方案](/zh-cn/question/upgrade.md)
   * [关于ios注册失败问题](/zh-cn/question/signIn.md)
   * [关于易有云v2.0安装失败问题（Android）](/zh-cn/question/install2.0.md)
-
+  * [为何没传输数据，看监控易有云还用流量？](/zh-cn/question/DataUse.md)
+  * [无法连接服务器？](/zh-cn/question/ntp.md)
 
 * [**用户反馈**](/zh-cn/UserFeedback/Feedback.md)

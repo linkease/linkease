@@ -14,7 +14,6 @@
 * 移动端基础教程
   * [管理员如何绑定和共享设备？](/zh-cn/tutorial/App/devices.md)
   * [如何解绑和取消共享？](/zh-cn/tutorial/App/remove.md)
-  * [管理员如何设置用户目录？](/zh-cn/tutorial/App/DirectorySettings.md)
   * [一键备份与自动备份有什么区别？](/zh-cn/tutorial/App/backup.md)
   * [如何实现文件在微信与易有云之间的互传（iOS）？](/zh-cn/tutorial/App/WeChat.md)
   * [如何用易有云连接SAMBA远程访问设备文件？](/zh-cn/tutorial/App/SAMBA.md)
@@ -24,8 +23,8 @@
   * [如何设置管理同步文件？（路由器暂不支持）](/zh-cn/tutorial/pc/file-sync.md)
   * [如何在线创建、编辑和预览Markdown文档？](/zh-cn/tutorial/pc/Markdown.md)
   * [如何将本地电脑作为存储端设备绑定？](/zh-cn/tutorial/pc/OpenStorage.md) 
-  * [管理员如何设置用户目录？](/zh-cn/tutorial/pc/DirectorySettings.md)
   * [如何找到下载后的文件？ ](/zh-cn/tutorial/pc/download.md) 
+  * [如何用易有云连接SAMBA远程访问设备文件？](/zh-cn/tutorial/pc/SAMBA.md)
   * [管理员如何设置设备上的用户目录（包含管理员）？](/zh-cn/tutorial/pc/ServerRoot.md) 
 
 * Android TV 端基础教程（暂无）

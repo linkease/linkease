@@ -26,6 +26,8 @@
   * [如何找到下载后的文件？ ](/zh-cn/tutorial/pc/download.md) 
   * [如何用易有云连接SAMBA远程访问设备文件？](/zh-cn/tutorial/pc/SAMBA.md)
   * [管理员如何设置设备上的用户目录（包含管理员）？](/zh-cn/tutorial/pc/ServerRoot.md) 
+  * [如何自动更新客户端版本？](/zh-cn/tutorial/pc/update.md) 
+  * [如何设置下载目录？](/zh-cn/tutorial/pc/Download.md) 
 
 * Android TV 端基础教程（暂无）
   * [TODO](/zh-cn/android-tv/TODO)

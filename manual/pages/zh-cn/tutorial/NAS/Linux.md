@@ -41,7 +41,7 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 
 ![liunx5.jpg](./Linux/liunx5.jpg)
 
-[**7.点击此处，进入易有云软件统一绑定教程**](/zh-cn/tutorial/NAS/BindingSoftware.md)
+[**7.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](/zh-cn/tutorial/NAS/BindingSoftware.md)
 
 
 

@@ -35,6 +35,7 @@
 * 存储端安装教程
   * [Synology](/zh-cn/tutorial/NAS/Synology.md)(已完成)
   * [QNAP](/zh-cn/tutorial/NAS/QNAP.md)（已完成）
+  * [ASUS](/zh-cn/tutorial/NAS/ASUS.md)(已完成)
   * [ReadyNAS](/zh-cn/tutorial/NAS/ReadyNAS.md)
   * [Koolshare Merlin](/zh-cn/tutorial/NAS/KoolshareMerlin.md)（已完成）
   * [Koolshare Lede](/zh-cn/tutorial/NAS/KoolshareLede.md)（已完成）

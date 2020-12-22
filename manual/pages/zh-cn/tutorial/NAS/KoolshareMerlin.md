@@ -17,4 +17,4 @@
 
 ![km4.jpg](./KoolshareMerlin/km4.jpg)
 
-[**5.点击此处，进入易有云软件统一绑定教程**](/zh-cn/tutorial/NAS/BindingSoftware.md)
+[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](/zh-cn/tutorial/NAS/BindingSoftware.md)

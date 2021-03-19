@@ -45,8 +45,8 @@ module.exports = ctx => ({
                     // { text: '指南', link: '/zh/guide/' },
                     { text: '文档', link: '/zh/docs/' },
                     { text: '意见反馈',  items: [
-                        { text: '易有云', link: 'https://wj.qq.com/s2/8108115/efbe' },
-                        { text: '联系我们', link: '' }
+                        { text: '私信反馈', link: 'https://wj.qq.com/s2/8212240/c6ba' },
+                        { text: '联系我们', link: '/zh/docs/about' }
                       ] },
                     { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
                    // { text: '登录后台', link: 'https://www.ddnsto.com/app/#/weixinlogin' },
@@ -88,6 +88,7 @@ module.exports = ctx => ({
 				["download", "下载中心"],
 				["question", "常见问题"],
 				["feedback", "用户反馈"],
+                ["about", "联系我们"],
                             ]
                       },
                     ]

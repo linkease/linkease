@@ -3,4 +3,4 @@
 客户端及浏览器中文件下载后，保存至本机系统默认的下载路径中。
 *"Administrator"为本机用户名
 
-![local.png](./download/local.png)
+![local.png](./Download/local.png)

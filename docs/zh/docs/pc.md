@@ -89,7 +89,7 @@
 客户端及浏览器中文件下载后，保存至本机系统默认的下载路径中。
 *"Administrator"为本机用户名
 
-![local.png](./tutorial/pc/download/local.png)
+![local.png](./tutorial/pc/Download/local.png)
 
 
 
@@ -223,12 +223,12 @@ SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能
 
 **1.鼠标悬浮在头像上方，在出来的操作栏中点击“设置”，点击“系统设置”。**
 
-![dla.png](./tutorial/pc/download/dla.jpg)
+![dla.png](./tutorial/pc/Download/dla.jpg)
 
 **2.点击“浏览”，选择好本地路径后，点击“确定”即可**
 
 *点击“打开”，会直接定位到当前您所选择的目录。
 
-![dlb.png](./tutorial/pc/download/dlb.jpg)
+![dlb.png](./tutorial/pc/Download/dlb.jpg)
 
-![dlc.png](./tutorial/pc/download/dlc.jpg)
+![dlc.png](./tutorial/pc/Download/dlc.jpg)

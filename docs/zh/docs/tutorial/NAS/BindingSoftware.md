@@ -17,6 +17,6 @@
 
 ![bs3.jpg](./BindingSoftware/bs3.jpg)
 
-**3.操作成功后，即可在易有云2.0客户端使用该账号管理设备文件；**
+**3.操作成功后，即可在易有云2.0客户端使用该账号管理设备文件。**
 
 ![bs4.jpg](./BindingSoftware/bs4.jpg)

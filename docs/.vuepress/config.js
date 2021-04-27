@@ -42,14 +42,16 @@ module.exports = ctx => ({
                 lastUpdated: '上次更新',
                 nav: [
                     { text: '首页', link: '/' },
-                    // { text: '指南', link: '/zh/guide/' },
-                    { text: '文档', link: '/zh/docs/' },
-                    { text: '意见反馈',  items: [
+                    { text: '安装', link: '/zh/docs/' },
+                    { text: '视频号',  items: [
+                        { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },
+                        { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
+                      ] },					
+                    { text: '反馈',  items: [
                         { text: '私信反馈', link: 'https://wj.qq.com/s2/8212240/c6ba' },
                         { text: '联系我们', link: '/zh/docs/about' }
                       ] },
                     { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
-                   // { text: '登录后台', link: 'https://www.ddnsto.com/app/#/weixinlogin' },
                 ],
                 sidebar: {
                     '/zh/guide/': [
@@ -72,7 +74,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/docs/': [
                       {
-                            title: "文档",
+                            title: "安装指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -80,15 +82,13 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 	["", "介绍"],
-                                	["features", "产品亮点"],
+									["store", "存储端安装"],
+									["download", "客户端安装"],									
                                 	["tutorial", "移动端基础教学"],
-				["pc", "PC端基础教学"],
-			     	["tv", "Android TV端基础教学"],
-				["store", "存储端安装教程"],
-				["download", "下载中心"],
-				["question", "常见问题"],
-				["feedback", "用户反馈"],
-                ["about", "联系我们"],
+                                	["pc", "PC端基础教学"],
+                                	["tv", "TV端基础教学"],                               	
+                                	["question", "常见问题"],
+                                	["about", "联系我们"],
                             ]
                       },
                     ]

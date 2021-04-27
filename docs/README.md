@@ -3,8 +3,8 @@ home: true
 #heroImage: /hero.png
 heroText: 十分钟打造你的家庭数据中心
 tagline: 打造属于你自己家庭的信息存储、读取、备份及管理中心，易有云为你提供一个极易上手，数据永不丢失的全平台私有云服务
-actionText: 免费下载 →
-actionLink: https://www.ddnsto.com/linkease/download/#/
+actionText: 立即体验 →
+actionLink: /zh/docs/
 features:
 - title: 相册、文件备份
   details: 一键备份简单方便，保证数据不丢失。将手机里的相册内容一键备份到存储设备里，快速方便。

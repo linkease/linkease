@@ -1,6 +1,6 @@
-# 存储端安装教程
+## 各种设备安装存储端
 
-## Synology(以Win10系统为例)
+### 1. 群晖
 
 **1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，此处选择"X86"；**
 
@@ -31,7 +31,7 @@
 
 
 
-## QNAP(以Win10系统为例)
+### 2. 威联通
 
 **1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/QNAP/)”，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
 
@@ -61,7 +61,7 @@
 
 
 
-## 在华硕NAS上安装易有云
+### 3. 华硕NAS
 [存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/Asus-Nas/)
 
 **1.首先，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
@@ -90,15 +90,10 @@
 
 
 
-
- ## 在ReadyNAS上安装易有云
-
-
-
-## Koolshare Merlin （ 以NETGEAR RAX80为例）
+### 4. Koolshare梅林
 *绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
 
-**1.登录NETGEAR RAX80固件管理端，点击“软件中心”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；**
+**1.登录固件管理端，点击“软件中心”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；**
 
 ![km1.jpg](./tutorial/NAS/KoolshareMerlin/km1.jpg)
 
@@ -118,9 +113,7 @@
 
 
 
-
-
-## Koolshare Lede 
+### 5. Koolshare Lede 
 *绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
 
 **1.登录设备固件管理端，点击“酷软”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；选中“易有云2.0”，点击“安装”，安装易有云插件；**
@@ -144,16 +137,41 @@
 [**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](./tutorial/NAS/BindingSoftware.md)
 
 
+### 6. Openwrt
+*绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
+
+**1.OpenWrt固件开发者众多，部分固件不自带易有云，可通过以下任一脚本轻松安装：**
+
+   via curl
+```
+sh -c "$(curl -sSL http://firmware.koolshare.cn/binary/LinkEase/Openwrt/install_linkease.sh)"
+```
+   via wget
+```
+sh -c "$(wget --no-check-certificate -qO- http://firmware.koolshare.cn/binary/LinkEase/Openwrt/install_linkease.sh)"
+```
+   others
+```
+cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEase/Openwrt/install_linkease.sh; sh ./install_linkease.sh
+```
+
+**2.在OpenWrt TTYD终端中输入任一上述命令，会自动安装完成。**
+
+![op1.jpg](./tutorial/NAS/OpenWrt/op1.jpg)
+
+![op2.jpg](./tutorial/NAS/OpenWrt/op2.jpg)
+
+**3.然后找到易有云，启用并应用保存，然后点击“打开易有云”。**
+
+![op3.jpg](./tutorial/NAS/OpenWrt/op3.jpg)
+
+**4.或者putty、MobaXterm等软件登陆SSH，输入任一上述命令，会自动安装完成。**
+
+[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](./tutorial/NAS/BindingSoftware.md)
 
 
 
- ## 软路由Openwrt通用版
-
-
-
-
-
-## Linux 通用版
+### 7. Linux 通用版
 [存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/Synology/)
 
 <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br />
@@ -200,13 +218,14 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 
 
 
+### 8. ReadyNAS
+
+TODO
 
 
+## 存储端统一绑定教程
 
-
- ## 易有云存储端统一绑定教程
-
-*存储端安装后第一次打开，需要绑定设备。易有云存储端与客户端一一对应，绑定成功后，每次在存储端登录时，需使用绑定的账号登录。否则，在该存储端的向导页面将无法登录；
+易有云存储端安装后第一次打开，需要绑定设备。易有云存储端与客户端一一对应，绑定成功后，每次在存储端登录时，需使用绑定的账号登录。否则，在该存储端的向导页面将无法登录；
 
 **1.在易有云2.0向导页面登录客户端；**
 
@@ -223,17 +242,6 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 
 ![bs3.jpg](./tutorial/NAS/BindingSoftware/bs3.jpg)
 
-**3.操作成功后，即可在易有云2.0客户端使用该账号管理设备文件；**
+**3.操作成功后，即可在易有云2.0客户端使用该账号管理设备文件。**
 
 ![bs4.jpg](./tutorial/NAS/BindingSoftware/bs4.jpg)
-
-
-
-
-
- * [宝塔面板](/zh/docs/mobile/TODO)
-  * [树莓派](/zh/docs/mobile/TODO)
-  * [N1盒子](/zh/docs/mobile/TODO)
-  * [玩客云](/zh/docs/mobile/TODO)
-  * [小米路由](/zh/docs/mobile/TODO)
-  * [其它](/zh/docs/mobile/TODO)

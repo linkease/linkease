@@ -92,6 +92,32 @@
 
 
 
+
+## 远程下载
+
+**开始远程下载之前，确保你的网络位置的设备上已经配置好了Aria2。**
+
+**1.易有云APP首页，网络位置找到我已经配置好Aria2的设备，点击进入；**
+
+![aria2-1.jpg](./tutorial/App/aria2/aria2-1.jpg)
+
+**2.点击“远程下载”；**
+
+![aria2-2.jpg](./tutorial/App/aria2/aria2-2.jpg)
+
+**3.第一次进去会提示无法获取Aria2配置，点击手动设置；**
+
+![aria2-3.jpg](./tutorial/App/aria2/aria2-3.jpg)
+
+**4.RPC地址填写：http://127.0.0.1:6800/jsonrpc ，RPC密钥填写：你设备上Aria2的RPC令牌；**
+
+![aria2-4.jpg](./tutorial/App/aria2/aria2-4.jpg)
+
+**5.设置完成后，就可以享受远程下载的乐趣了。**
+
+
+
+
 ## 微信互传
 
 如何实现文件在微信与易有云之间的互传（iOS）？

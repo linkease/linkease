@@ -43,6 +43,7 @@ module.exports = ctx => ({
                 nav: [
                     { text: '首页', link: '/' },
                     { text: '安装', link: '/zh/docs/' },
+                    { text: '文档', link: '/zh/guide/' },
                     { text: '视频号',  items: [
                         { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },
                         { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
@@ -56,19 +57,15 @@ module.exports = ctx => ({
                 sidebar: {
                     '/zh/guide/': [
                         {
-                            title: "安装指南",
+                            title: "文档",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "介绍"],
-                                ["quick", "快速入门"],
-                                ["preview", "功能预览"],
-                                ["koolshare_merlin", "详细教程"],
-                                ["opensource", "开源代码"],
-                                ["question", "常见问题"],
+                                ["", "基础信息"],
+								["Scene", "使用场景"],
                             ]
                         },
                     ],

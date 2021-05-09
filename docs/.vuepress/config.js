@@ -49,7 +49,7 @@ module.exports = ctx => ({
                         { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
                       ] },					
                     { text: '反馈',  items: [
-                        { text: '私信反馈', link: 'https://wj.qq.com/s2/8212240/c6ba' },
+                        { text: '私信反馈', link: 'https://wj.qq.com/s2/8425893/80c4/' },
                         { text: '联系我们', link: '/zh/docs/about' }
                       ] },
                     { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },

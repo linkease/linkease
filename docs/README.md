@@ -14,3 +14,13 @@ features:
   details: 无障碍联通你的设备，让你的数据来去自如。通过电脑修改文档，手机查看即时更新。
 footer: 版权所有 2021 易有云网络科技有限责任公司 | 粤ICP备20024441号
 ---
+
+<script>
+  export default{
+    mounted(){
+        document.querySelector(".footer").addEventListener("click", function (e) {
+            window.open("https://beian.miit.gov.cn/", "_blank'")
+        })
+    }
+}
+</script>

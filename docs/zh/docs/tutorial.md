@@ -70,6 +70,37 @@
 
 
 
+
+## 来自终端
+
+来自终端是个啥？
+
+**就是复制samba、sftp、webdav等特殊协议的配置信息。**
+
+比如：你的账号在手机A1的易有云APP上添加了samba，在手机A2的易有云APP上登录你的账号，可以直接复制手机A1上的samba的配置信息在手机A2上快速配置绑定samba。
+
+**1.新设备的易有云APP首页，点击“+网络协议”，出来弹窗选择“来自终端”；**
+
+![terminal1.jpg](./tutorial/App/terminal/1.jpg)
+
+**2.就能发现旧设备已经配置好的samba等协议的配置(如果你在旧设备配置了多个协议，就能看见多个)；**
+
+![terminal2.jpg](./tutorial/App/terminal/2.jpg)
+
+**3.点击你要复制的协议配置，然后“启用设备配置信息”，输入密码后，绑定即可。**
+
+![terminal3.jpg](./tutorial/App/terminal/3.jpg)
+
+![terminal4.jpg](./tutorial/App/terminal/4.jpg)
+
+PS：如果在新设备上“删除设备”或者修改，不会影响旧设备，均为本地操作。
+
+![terminal5.jpg](./tutorial/App/terminal/5.jpg)
+
+
+
+
+
 ## 相册备份
 
 如何备份相册呢？
@@ -300,7 +331,6 @@ SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能
 ![s14.jpg](./tutorial/App/SAMBA/s14.jpg)
 
 ![s15.jpg](./tutorial/App/SAMBA/s15.jpg)
-
 
 
 

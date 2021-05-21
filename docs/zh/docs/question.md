@@ -79,3 +79,16 @@
 4.完成后，设备套餐相关会出现相关套餐信息。
 
 ![tc5.jpg](./question/SetMeal/tc5.jpg)
+
+
+
+#### Q: Windows客户端被检测出风险？纯属误报！
+
+现在Windows端被少数几家病毒库检测出存在风险，应该是命中了某些特征导致的误报：
+
+[检测说明](https://www.virustotal.com/gui/file/a8d26f39f0481bea3e31b36ae5168e1582827bf56cbff036c1800a7ed9dd3b59/detection)
+
+![wubao1.jpg](./question/SetMeal/wubao1.jpg)
+
+**这是属于误报，大家不要担心，就是命中了某些特征而已，各种实测、反馈都是没问题的。**
+

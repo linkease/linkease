@@ -223,6 +223,52 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 TODO
 
 
+
+### 9. Docker
+
+[镜像地址](https://hub.docker.com/r/linkease/linkease/)
+
+
+通过以下命令安装即可：
+
+```
+docker run -d \
+    --cap-add=NET_ADMIN \
+    -p 8897:8897 \
+    --name=<container name> \
+	--network host \
+    -v <path for data files>:/linkease-data \
+    -v <path for config files>:/linkease-config \
+    -v /etc/localtime:/etc/localtime:ro \
+    -e PUID=<uid for user> \
+    -e PGID=<gid for user> \
+    linkease/linkease:latest
+```
+
+--cap-add、-e PUID、-e PGID 这几个参数若不知道可不填。
+
+PS：获取UID和GID，终端输入id回车即可。
+
+![docker1](./tutorial/NAS/docker/docker1.jpeg)
+   
+比如上图获取的UID和GID都是0。
+
+
+#### 注意事项：
+
+易有云尽可能使用点对点进行网络传输，所以在使用 Docker 的时候，为了避免给易有云增加了一层 NAT，建议网络配置使用：
+
+**Host 模式：**
+即用本主机的网络，减少了一层NAT
+
+**Custom br0 模式：**
+即把Docker里面的网络连接到一个局域网中，最好是得到根主机一个网段的IP，也能少一层NAT
+
+否则会让易有云无法充分利用本地局域网的网络通信，影响网速，同时影响网络发现、远程samba等等功能特性。(即可以通过易有云远程访问局域网其它的samba共享路径)
+
+
+
+
 ## 存储端统一绑定教程
 
 易有云存储端安装后第一次打开，需要绑定设备。易有云存储端与客户端一一对应，绑定成功后，每次在存储端登录时，需使用绑定的账号登录。否则，在该存储端的向导页面将无法登录；

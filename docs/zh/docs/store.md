@@ -172,7 +172,7 @@ cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEas
 
 
 ### 7. Linux 通用版
-[存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/Synology/)
+[存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/LinuxStorage/)
 
 <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br />
 

@@ -43,7 +43,7 @@ module.exports = ctx => ({
                 nav: [
                     { text: '首页', link: '/' },
                     { text: '安装', link: '/zh/docs/' },
-                    { text: '文档', link: '/zh/guide/' },
+                    //{ text: '文档', link: '/zh/guide/' },
                     { text: '视频号',  items: [
                         { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },
                         { text: '头条号', link: 'https://bit.ly/3cFVAuY' },

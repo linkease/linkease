@@ -42,7 +42,7 @@ module.exports = ctx => ({
                 lastUpdated: '上次更新',
                 nav: [
                     { text: '首页', link: '/' },
-                    { text: '安装', link: '/zh/docs/' },
+                    { text: '指南', link: '/zh/docs/' },
                     //{ text: '文档', link: '/zh/guide/' },
                     { text: '视频号',  items: [
                         { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },

@@ -25,7 +25,7 @@
 
 ![sy6.png](./tutorial/NAS/Synology/sy6.png)
 
-[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](./tutorial/NAS/BindingSoftware.md)
+**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 
@@ -56,7 +56,7 @@
 
 ![q6.jpg](./tutorial/NAS/QNAP/q6.jpg)
 
-[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](./tutorial/NAS/BindingSoftware.md)
+**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 
@@ -86,7 +86,7 @@
 
 ![7.jpg](./tutorial/NAS/ASUS/7.jpg)
 
-[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](/tutorial/NAS/BindingSoftware.md)
+**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 
@@ -109,7 +109,7 @@
 
 ![km4.jpg](./tutorial/NAS/KoolshareMerlin/km4.jpg)
 
-[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](/tutorial/NAS/BindingSoftware.md)
+**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 
@@ -134,7 +134,7 @@
 
 ![kl4.jpg](./tutorial/NAS/KoolshareLede/kl4.jpg)
 
-[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](./tutorial/NAS/BindingSoftware.md)
+**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 ### 6. Openwrt
@@ -167,7 +167,7 @@ cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEas
 
 **4.或者putty、MobaXterm等软件登陆SSH，输入任一上述命令，会自动安装完成。**
 
-[**5.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](./tutorial/NAS/BindingSoftware.md)
+**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 
@@ -214,7 +214,7 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 
 ![liunx5.jpg](./tutorial/NAS/Linux/liunx5.jpg)
 
-[**7.安装后第一次打开，需要绑定设备。点击此处，进入易有云软件统一绑定教程**](./tutorial/NAS/BindingSoftware.md)
+**7.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 
@@ -229,7 +229,7 @@ TODO
 [镜像地址](https://hub.docker.com/r/linkease/linkease/)
 
 
-通过以下命令安装即可：
+**1.通过以下命令安装即可：**
 
 ```
 docker run -d \
@@ -254,7 +254,7 @@ PS：获取UID和GID，终端输入id回车即可。
 比如上图获取的UID和GID都是0。
 
 
-#### 注意事项：
+**2.注意事项：**
 
 易有云尽可能使用点对点进行网络传输，所以在使用 Docker 的时候，为了避免给易有云增加了一层 NAT，建议网络配置使用：
 
@@ -266,7 +266,7 @@ PS：获取UID和GID，终端输入id回车即可。
 
 否则会让易有云无法充分利用本地局域网的网络通信，影响网速，同时影响网络发现、远程samba等等功能特性。(即可以通过易有云远程访问局域网其它的samba共享路径)
 
-
+**3.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
 ## 存储端统一绑定教程

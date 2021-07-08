@@ -86,6 +86,7 @@ module.exports = ctx => ({
                                 	["pc", "PC端基础教学"],
                                 	["tv", "TV端基础教学"],                               	
                                 	["question", "常见问题"],
+                                    ["plan", "开发计划"],
                                 	["about", "联系我们"],
                             ]
                       },

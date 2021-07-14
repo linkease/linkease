@@ -376,3 +376,51 @@ SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能
 
 ![ml23.jpg](./tutorial/App/ServerRoot/ml23.jpg)
 
+
+
+## Web DAV
+
+### 电脑上配置Web DAV？
+
+**1.打开易有云电脑客户端，选择好存储端后，点击工具栏，然后点击网络硬盘；**
+
+![dav1.jpg](./tutorial/App/webdav/dav1.jpg)
+
+**2.然后服务设置，设置Webdav用户和Webdav密码(设置完成请记住)；**
+
+![dav2.jpg](./tutorial/App/webdav/dav2.jpg)
+
+**3.然后磁盘管理，选择目标主机，可以选择盘符映射到本地；**
+
+![dav3.jpg](./tutorial/App/webdav/dav3.jpg)
+
+**4.最后打开“此电脑”，就能看到映射的盘，就能点击进去直接访问了。**
+
+![dav4.jpg](./tutorial/App/webdav/dav4.jpg)
+
+
+### 手机上配置Web DAV？
+
+**1.在上面第三步的时候，目标主机后，有个地址，我们整个地址复制下来；**
+
+PS：地址类似这种：**http://192.168.2.5:8896//webdav/XXXXXXX**
+
+![dav5.jpg](./tutorial/App/webdav/dav5.jpg)
+
+**2.然后打开易有云App，首页——网络协议——Web DAV；**
+
+![dav6.jpg](./tutorial/App/webdav/dav6.jpg)
+
+**3.然后选关联设备，把前面复制的地址：http://192.168.2.5:8896//webdav/XXXXXXX 填写到服务器url；**
+
+PS：地址需要特别注意的，在端口后面的//，要去掉一个/，所以正确的url是：**http://192.168.2.5:8896/webdav/XXXXXXX** 
+
+![dav7.jpg](./tutorial/App/webdav/dav7.jpg)
+
+**4.然后设置别称，用户名称是和密码(电脑端设置的Webdav用户和Webdav密码)，填写完成后绑定。**
+
+**5.回到易有云App首页就能看到刚绑定的Web DAV，点击就能访问。**
+
+![dav8.jpg](./tutorial/App/webdav/dav8.jpg)
+
+

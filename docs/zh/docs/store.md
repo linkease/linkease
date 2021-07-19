@@ -62,9 +62,8 @@
 
 
 ### 3. 华硕NAS
-[存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/Asus-Nas/)
 
-**1.首先，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
+**1.首先，点击[存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Asus-Nas/)，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
 
 ![1.jpg](./tutorial/NAS/ASUS/1.jpg)
 
@@ -267,6 +266,76 @@ PS：获取UID和GID，终端输入id回车即可。
 否则会让易有云无法充分利用本地局域网的网络通信，影响网速，同时影响网络发现、远程samba等等功能特性。(即可以通过易有云远程访问局域网其它的samba共享路径)
 
 **3.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看“存储端统一绑定教程”。**
+
+**4.Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：**
+
+```
+sudo docker run -d \
+    --cap-add=NET_ADMIN \
+    -p 8897:8897 \
+    --name=<container name> \
+	--network host \
+    -v <path for data files>:/linkease-data \
+    -v <path for config files>:/linkease-config \
+    -v /etc/localtime:/etc/localtime:ro \
+    -e PUID=<uid for user> \
+    -e PGID=<gid for user> \
+    linkease/linkease:latest
+```
+
+
+
+### 10. Windows
+
+**1.点击[存储端下载](https://www.ddnsto.com/linkease/download/#/disk/)，选择Windows存储端下载；**
+
+![win1.jpg](./tutorial/NAS/win/win1.jpg)
+
+**2.下载的LinkEaseWin.zip，解压成文件夹，然后直接点击LinkEase.exe(绿色软件不用安装)运行；**
+
+**3.按提示登录易有云账号，选择“本机”就能看到当前电脑上的硬盘；**
+
+![win2.jpg](./tutorial/NAS/win/win2.jpg)
+
+**4.然后登录手机易有云，首页——我的终端，选择“Windows图标”；**
+
+![win3.jpg](./tutorial/NAS/win/win3.jpg)
+
+**5.这样就能在手机端直接浏览电脑上的硬盘内容了。**
+
+![win4.jpg](./tutorial/NAS/win/win4.jpg)
+
+**6.Windows存储端，不用再另外绑定，不用看下面的“存储端统一绑定教程”，打开程序界面扫码登录就成。**
+
+
+
+### 11. macOS
+
+**1.点击[存储端下载](https://www.ddnsto.com/linkease/download/#/disk/)，选择MacOS存储端下载；**
+
+![mac1.jpg](./tutorial/NAS/macos/mac1.jpg)
+
+**2.访达——下载，找到LinkEase.dmg，点击安装；**
+
+![mac2.jpg](./tutorial/NAS/macos/mac2.jpg)
+
+**3.启动台，找到易有云运行，按提示登录易有云账号，选择“本机”就能看到当前电脑上的硬盘；**
+
+![mac3.jpg](./tutorial/NAS/macos/mac31.jpg)
+
+![mac3.jpg](./tutorial/NAS/macos/mac32.jpg)
+
+**4.然后登录手机易有云，首页——我的终端，选择“苹果图标”；**
+
+![mac4.jpg](./tutorial/NAS/macos/mac4.jpg)
+
+**5.这样就能在手机端直接浏览电脑上的硬盘内容了。**
+
+![mac5.jpg](./tutorial/NAS/macos/mac5.jpg)
+
+**6.MacOS存储端，不用再另外绑定，不用看下面的“存储端统一绑定教程”，打开程序界面扫码登录就成。**
+
+
 
 
 ## 存储端统一绑定教程

@@ -227,7 +227,7 @@ export default {
             .text1_block {
                 flex: 0 0 100%;
                 max-width: calc(50% - 20px);
-                height: 260px;
+                height: 244px;
                 img {
                     width: 28.93px;
                     height: 28.93px;

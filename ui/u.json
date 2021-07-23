@@ -1,0 +1,17 @@
+{
+	"ver": "0.3.61",
+	"files": [
+		{
+			"name": "1.zip",
+			"hash": "4155840687890a7bb5fd865201ec4e77d3f670cadcde6f604695970f32e97041"
+		},
+		{
+			"name": "2.zip",
+			"hash": "1dcbecbdbb1036e84194312a640733f8e68c14677ef507804b85edfec53c94d8"
+		},
+		{
+			"name": "3.zip",
+			"hash": "1eb336758d94c3d0ceb779e8ebf1e9cb7b3c2dcc3cbfa473cb6a57e2267fc5f4"
+		}
+	]
+}

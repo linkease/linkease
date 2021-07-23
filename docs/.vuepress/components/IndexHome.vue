@@ -6,10 +6,9 @@
             <div class="banner">
                 <div class="info">
                     <div class="title">
-                        随时随地管理你的文件
+                        随时随地享受私有云
                     </div>
-                    <div class="words">易有云⽀持全平台的内网穿透，极速体验、极易上⼿。<br />
-                        随时随地管理你的文件，保证数据永不丢失的私有云服务。</div>
+                    <div class="words">易有云提供全平台的数据互通，带你享受P2P的极速体验。随时随地备份你的照片、文件，轻松打造属于你的私有云服务。</div>
                     <router-link to="/zh/docs/">
                         <div class="btn">立即体验</div>
                     </router-link>
@@ -30,7 +29,7 @@
                         <img :src="img">
                         <img :src="imgs" class="image">
                         <div class="description_tit">更好用的相册备份</div>
-                        <div class="description_info">⼀键备份、⽅便简单，保证你的数据永不丢失，让易有云保护你的家庭记忆。</div>
+                        <div class="description_info">⼀键备份、⽅便简单，保证你的数据永不丢失，让易有云保护你的家庭回忆。</div>
                     </div>
                 </div>
 
@@ -39,7 +38,7 @@
                         <img :src="file">
                         <img :src="files" class="image">
                         <div class="description_tit">强大的文件管理</div>
-                        <div class="description_info">支持各种文件的管理、同步和智能分类，你可以随时随地查看预览⼿机文件。</div>
+                        <div class="description_info">支持各种文件的管理、同步和智能分类，你可以随时随地查看预览设备文件。</div>
                     </div>
                 </div>
 
@@ -59,7 +58,7 @@
                         <img :src="collaterals">
                         <img :src="collateralss" class="image">
                         <div class="description_tit">支持多种网络协议 </div>
-                        <div class="description_info">易有云⽀持Web DAV、SFTP、SAMBA、S3等多种网络协议。</div>
+                        <div class="description_info">易有云⽀持WebDAV、SFTP、SAMBA、S3等多种网络协议。</div>
                     </div>
                 </div>
             </div>
@@ -80,7 +79,7 @@
                 <div class="where_right">
                     <div class="right_content">
                         <div class="where_tit">家庭环境</div>
-                        <div class="where_info">自动备份⼿机相册，不再担心⼿机内存的不⾜，让你⼀年365天畅⼼保留家庭的记忆。随时随地查看照片，影片，即使在公司也可以远程下载电影在家庭设备里。</div>
+                        <div class="where_info">自动备份手机相册，不再担心手机内存的不⾜，让你⼀年365天畅心保留家庭的记忆。随时随地查看照片，影片，即使在公司也可以远程下载电影在家庭设备里。</div>
                     </div>
                 </div>
             </div>
@@ -203,7 +202,7 @@ export default {
         max-width: 1174px;
         margin: 0 auto;
         .info {
-            max-width: 432px;
+            max-width: 392px;
             padding-top: 209px;
             .title {
                 // margin-top: 209px;

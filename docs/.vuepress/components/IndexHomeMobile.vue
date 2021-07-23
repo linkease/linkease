@@ -4,8 +4,8 @@
         <div class="banner">
             <div class="banner_bg" :style="bannerStyle"></div>
             <div class="banner_content">
-                <div class="banner_title">随时随地<br />管理你的文件</div>
-                <div class="banner_info">易有云支持全平台的内⽹穿透，极速体验、极易上⼿。随时随地管理你的⽂件，保证数据永不丢失的私有云服务。</div>
+                <div class="banner_title">随时随地<br />享受私有云</div>
+                <div class="banner_info">易有云提供全平台的数据互通，带你享受P2P的极速体验。随时随地备份你的照片、文件，轻松打造属于你的私有云服务。</div>
                 <router-link to="/zh/docs/">
                     <div class="banner_btn">立即体验</div>
                 </router-link>
@@ -23,14 +23,14 @@
                 <div class="text1_block">
                     <img :src="img1">
                     <div class="block_tit">更好⽤的相册备份</div>
-                    <div class="block_info">⼀键备份、⽅便简单，保证你的数据永不丢失，让易有云保护你的家庭记忆。</div>
+                    <div class="block_info">⼀键备份、⽅便简单，保证你的数据永不丢失，让易有云保护你的家庭回忆。</div>
                 </div>
 
                 <!-- 第二块 -->
                 <div class="text1_block">
                     <img :src="img2">
                     <div class="block_tit">强大的文件管理</div>
-                    <div class="block_info">⽀持各种⽂件的管理、同步和智能分类，你可以随时随地查看预览⼿机⽂件。</div>
+                    <div class="block_info">⽀持各种⽂件的管理、同步和智能分类，你可以随时随地查看预览设备⽂件。</div>
                 </div>
 
                 <!-- 第三块 -->
@@ -44,7 +44,7 @@
                 <div class="text1_block">
                     <img :src="img4">
                     <div class="block_tit">⽀持多种网络协议</div>
-                    <div class="block_info">易有云⽀持Web DAV、SFTP、SAMBA、S3等多种网络协议。</div>
+                    <div class="block_info">易有云⽀持WebDAV、SFTP、SAMBA、S3等多种网络协议。</div>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                     <img :src="image1">
                     <div class="block_right">
                         <div class="right_tit">家庭环境</div>
-                        <div class="right_info">⾃动备份⼿机相册，不再担⼼⼿机内存的不⾜，让你⼀年365天畅⼼保留家庭的记忆。随时随地查看照⽚，影⽚，即使在公司也可以远程下载电影在家庭设备里。</div>
+                        <div class="right_info">自动备份手机相册，不再担心⼿机内存的不⾜，让你⼀年365天畅心保留家庭的记忆。随时随地查看照片，影片，即使在公司也可以远程下载电影在家庭设备里。</div>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                 <div class="block_content">
                     <div class="block_right">
                         <div class="right_tit">公司环境</div>
-                        <div class="right_info">易有云提供的私有云服务，⽀持⽂件双向同步，同事之间共享办公⽂件，及时且安全性⾼。</div>
+                        <div class="right_info">易有云提供的私有云服务，⽀持文件双向同步，同事之间共享办公⽂件，及时且安全性⾼。</div>
                     </div>
                     <img :src="image2">
                 </div>
@@ -103,7 +103,7 @@
         </div>
         <!-- 底部 -->
         <div class="footer" :style="footerStyle">
-            <a href="https://beian.miit.gov.cn/" target="_blank" class="footer_info">版权所有 2021 易有云网络科技有限责任公司 <br />粤ICP备20024441号</a>
+            <a href="https://beian.miit.gov.cn/" target="_blank" class="footer_info">版权所有2021易有云网络科技有限责任公司 <br />粤ICP备20024441号</a>
         </div>
     </div>
 </template>

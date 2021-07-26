@@ -2,7 +2,7 @@
 
 ### 1. 群晖
 
-### 注意！由于DSM7.0对权限严格控制，所以额外配置权限（DSM6的用户无需处理）。有两种方法配置：
+#### 注意！由于DSM7.0对权限严格控制，所以额外配置权限（DSM6的用户无需处理）。有两种方法配置：
 
 - 方法一： 进入“Control Panel” - 选择"Shared Folder", 在选择文件夹上右键选择“Edit”，选择“Permissions”页签。在页签内用户选择器选择“System internal user”, 找到“linkease”，勾选“Read/Write”。
 
@@ -21,7 +21,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 **1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，此处选择"X86"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
-*请根据自己电脑上的CPU型号选择相对应的存储端
+*请根据自己群晖的CPU型号以及DSM版本选择相对应的存储端
 
 ![sy0.png](./tutorial/NAS/Synology/sy0.png)
 

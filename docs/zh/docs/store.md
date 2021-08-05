@@ -242,35 +242,70 @@ TODO
 
 ### 9. Docker
 
-[镜像地址](https://hub.docker.com/r/linkease/linkease/)
+**Docker方式安装易有云存储端，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
+所以说Docker方式基本算是适合全设备，操作也比较简单，下面开始教程：
 
-**1.通过以下命令安装即可：**
+**终端运行以下命令：(先不要直接复制，看下面的说明)**
 
 ```
 docker run -d \
     --cap-add=NET_ADMIN \
     -p 8897:8897 \
-    --name=<container name> \
+    --name=linkease \
 	--network host \
-    -v <path for data files>:/linkease-data \
-    -v <path for config files>:/linkease-config \
+    -v /etc/localtime:/etc/linkease-data \
+    -v /etc/localtime:/etc/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
     linkease/linkease:latest
 ```
 
---cap-add、-e PUID、-e PGID 这几个参数若不知道可不填。
-
-PS：获取UID和GID，终端输入id回车即可。
+1. PUID/PGID：获取方式：终端输入id即可。
 
 ![docker1](./tutorial/NAS/docker/docker1.jpeg)
    
 比如上图获取的UID和GID都是0。
 
+2.注意要替换 "<>" 里面的内容，且不能出现 "<>"。
 
-**2.注意事项：**
+3.准备工作做好了，那我的终端命令就是：
+
+```
+docker run -d \
+    --cap-add=NET_ADMIN \
+    -p 8897:8897 \
+    --name=linkease \
+	--network host \
+    -v /etc/localtime:/etc/linkease-data \
+    -v /etc/localtime:/etc/linkease-config \
+    -v /etc/localtime:/etc/localtime:ro \
+    -e PUID=0 \
+    -e PGID=0 \
+    linkease/linkease:latest
+```
+
+4.Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
+
+```
+sudo docker run -d \
+    --cap-add=NET_ADMIN \
+    -p 8897:8897 \
+    --name=linkease \
+	--network host \
+    -v /etc/localtime:/etc/linkease-data \
+    -v /etc/localtime:/etc/linkease-config \
+    -v /etc/localtime:/etc/localtime:ro \
+    -e PUID=0 \
+    -e PGID=0 \
+    linkease/linkease:latest
+```
+
+5.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看“存储端统一绑定教程”。
+
+
+**注意事项：**
 
 易有云尽可能使用点对点进行网络传输，所以在使用 Docker 的时候，为了避免给易有云增加了一层 NAT，建议网络配置使用：
 
@@ -282,23 +317,7 @@ PS：获取UID和GID，终端输入id回车即可。
 
 否则会让易有云无法充分利用本地局域网的网络通信，影响网速，同时影响网络发现、远程samba等等功能特性。(即可以通过易有云远程访问局域网其它的samba共享路径)
 
-**3.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看“存储端统一绑定教程”。**
-
-**4.Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：**
-
-```
-sudo docker run -d \
-    --cap-add=NET_ADMIN \
-    -p 8897:8897 \
-    --name=<container name> \
-	--network host \
-    -v <path for data files>:/linkease-data \
-    -v <path for config files>:/linkease-config \
-    -v /etc/localtime:/etc/localtime:ro \
-    -e PUID=<uid for user> \
-    -e PGID=<gid for user> \
-    linkease/linkease:latest
-```
+[镜像地址](https://hub.docker.com/r/linkease/linkease/)
 
 
 

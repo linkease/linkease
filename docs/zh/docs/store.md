@@ -2,10 +2,10 @@
 
 ### 1. 群晖
 
-**1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，此处选择"X86"；**
+**1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
-*请根据自己群晖的CPU型号以及DSM版本选择相对应的存储端
+*请根据自己群晖的CPU型号以及DSM版本选择相对应的存储端(DSM7.0请先卸载旧版本)
 
 ![sy0.png](./tutorial/NAS/Synology/sy0.png)
 
@@ -25,22 +25,27 @@
 
 ![sy6.png](./tutorial/NAS/Synology/sy6.png)
 
-DSM7.0的设置入口需要在安装页进入
-![sy6.png](./tutorial/NAS/Synology/linkeaseAgent_url.png)
+**DSM7.0的设置入口在套件中心—已安装—LinkEaseAgent：**
+
+![sy6.png](./tutorial/NAS/Synology/linkeaseAgent_url.jpg)
 
 **5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
-#### 注意！由于DSM7.0对权限严格控制，所以额外配置权限（DSM6的用户无需处理）。有两种方法配置：
+#### 注意！由于DSM7.0对权限严格控制，所以额外配置权限(DSM6的用户无需处理)。有两种方法配置：
 
-- 方法一： 进入“Control Panel” - 选择"Shared Folder", 在选择文件夹上右键选择“Edit”，选择“Permissions”页签。在页签内用户选择器选择“System internal user”, 找到“linkease”，勾选“Read/Write”。
+- 方法一： 进入“控制面板”—“共享文件夹”, 在选择文件夹上右键选择“编辑”，选择“权限”页签，在页签内用户选择器选择“系统内部用户账户”, 找到“linkease”，勾选“可读写”，最后保存。
 
-![sy0.png](./tutorial/NAS/Synology/syno_edit_permissions.png)
+![sy0.png](./tutorial/NAS/Synology/syno_edit_permissions-1.jpg)
 
-- 方法二：如果有root权限，开启ssh后进入群晖终端，执行以下两条指令
+![sy0.png](./tutorial/NAS/Synology/syno_edit_permissions-2.jpg)
 
-先开启ssh
-![sy0.png](./tutorial/NAS/Synology/syno_enable_ssh.png)
+- 方法二：如果有root权限，开启ssh后进入群晖终端，执行以下两条指令：
+
+1.先开启ssh：“控制面板”—“终端机和SNMP”—“启用SSH功能”—应用。
+![sy0.png](./tutorial/NAS/Synology/syno_enable_ssh.jpg)
+
+2.登录群晖SSH，终端执行：
 ```
 sudo  sed -i 's/package/root/g' /var/packages/LinkEaseAgent/conf/privilege
 

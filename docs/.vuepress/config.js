@@ -66,7 +66,7 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "基础信息"],
-								["Scene", "使用场景"],
+                                ["Scene", "使用场景"],
                             ]
                         },
                     ],
@@ -80,14 +80,14 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 	["", "介绍"],
-									["store", "存储端安装"],
-									["download", "客户端安装"],									
+                                	["store", "存储端安装"],
+                                	["download", "客户端安装"],									
                                 	["tutorial", "移动端基础教学"],
                                 	["pc", "PC端基础教学"],
                                 	["tv", "TV端基础教学"],                               	
                                 	["question", "常见问题"],
-									["opensource", "开源代码"],
-                                    ["plan", "开发计划"],
+                                	["opensource", "开源代码"],
+                                	["plan", "开发计划"],
                                 	["about", "联系我们"],
                             ]
                       },

@@ -3,11 +3,16 @@
         <NavLayout></NavLayout>
         <IndexHome></IndexHome>
         <IndexHomeMobile></IndexHomeMobile>
+        <FooterComponent />
 
     </div>
 </template>
 <script>
+import FooterComponent from "./FooterComponent.vue"
 export default {
+    components: {
+        FooterComponent
+    }
 }
 </script>
 <style lang="scss" scoped>

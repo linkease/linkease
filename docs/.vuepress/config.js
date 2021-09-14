@@ -49,16 +49,21 @@ module.exports = ctx => ({
                         ]
                     },
                     //{ text: '文档', link: '/zh/guide/' },
-                    { text: '视频号',  items: [
-                        { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },
-                        { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
-                      ] },					
-                    { text: '反馈',  items: [
-                        { text: '问题反馈', link: 'https://github.com/linkease/linkease/issues' },
-                        { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
-                        { text: '关于我们', link: 'https://doc.linkease.com/zh/guide/about/' }
-                      ] },
-                    { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
+                    {
+                        text: '视频号', items: [
+                            { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },
+                            { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
+                        ]
+                    },
+                    {
+                        text: '反馈', items: [
+                            { text: '问题反馈', link: 'https://github.com/linkease/linkease/issues' },
+                            { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
+                            { text: '关于我们', link: 'https://doc.linkease.com/zh/guide/about/' }
+                        ]
+                    },
+                    { text: '下载', link: 'https://doc.linkease.com/downloads/' },
+
                 ],
                 sidebar: {
                     '/zh/guide/': [
@@ -76,7 +81,7 @@ module.exports = ctx => ({
                         },
                     ],
                     '/zh/docs/': [
-                      {
+                        {
                             title: "安装指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
@@ -84,18 +89,18 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                	["", "介绍"],
-                                	["store", "存储端安装"],
-                                	["download", "客户端安装"],									
-                                	["tutorial", "移动端基础教学"],
-                                	["pc", "PC端基础教学"],
-                                	["tv", "TV端基础教学"],                               	
-                                	["question", "常见问题"],
-                                	["opensource", "开源代码"],
-                                	["plan", "开发计划"],
-                                	["about", "联系我们"],
+
+                                ["", "介绍"],
+                                ["store", "存储端安装"],
+                                ["download", "客户端安装"],
+                                ["tutorial", "移动端基础教学"],
+                                ["pc", "PC端基础教学"],
+                                ["tv", "TV端基础教学"],
+                                ["question", "常见问题"],
+                                ["plan", "开发计划"],
+                                ["about", "联系我们"],
                             ]
-                      },
+                        },
                     ]
                 }
             },

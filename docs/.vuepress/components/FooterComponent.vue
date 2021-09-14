@@ -64,7 +64,7 @@ export default {
                         },
                         {
                             label: "商务洽谈",
-                            value: "xiaobao@linkease.com"
+                            value: "mailto:xiaobao@linkease.com"
                         }
 
                     ]
@@ -78,7 +78,7 @@ export default {
                         },
                         {
                             label: "联系我们",
-                            value: "xiaobao@linkease.com"
+                            value: "mailto:xiaobao@linkease.com"
                         }
                     ]
                 },
@@ -87,7 +87,7 @@ export default {
                     childer: [
                         {
                             label: "koolcenter",
-                            value: "#"
+                            value: "https://www.koolcenter.com/"
                         },
                     ]
                 }

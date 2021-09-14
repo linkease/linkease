@@ -50,7 +50,7 @@ export default {
                     title: "购买渠道",
                     childer: [
                         {
-                            label: "官方淘宝店",
+                            label: "KoolCenter淘宝店",
                             value: "https://koolcenter.taobao.com/"
                         }
                     ]
@@ -86,7 +86,7 @@ export default {
                     title: "合作伙伴",
                     childer: [
                         {
-                            label: "koolcenter",
+                            label: "KoolCenter",
                             value: "https://www.koolcenter.com/"
                         },
                     ]

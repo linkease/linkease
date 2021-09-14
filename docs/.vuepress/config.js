@@ -42,18 +42,22 @@ module.exports = ctx => ({
                 lastUpdated: '上次更新',
                 nav: [
                     { text: '首页', link: '/' },
-                    { text: '指南', link: '/zh/docs/' },
+                    { text: '指南', link: 'https://doc.linkease.com/zh/guide/linkease_server/#%E5%AD%98%E5%82%A8%E7%AB%AF%E4%BB%8B%E7%BB%8D' },
                     //{ text: '文档', link: '/zh/guide/' },
-                    { text: '视频号',  items: [
-                        { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },
-                        { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
-                      ] },					
-                    { text: '反馈',  items: [
-                        { text: '问题反馈', link: 'https://github.com/linkease/linkease/issues' },
-                        { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
-                        { text: '联系我们', link: '/zh/docs/about' }
-                      ] },
-                    { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
+                    {
+                        text: '视频号', items: [
+                            { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },
+                            { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
+                        ]
+                    },
+                    {
+                        text: '反馈', items: [
+                            { text: '问题反馈', link: 'https://github.com/linkease/linkease/issues' },
+                            { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
+                            { text: '联系我们', link: '/zh/docs/about' }
+                        ]
+                    },
+                    { text: '下载', link: 'https://doc.linkease.com/downloads/' },
                 ],
                 sidebar: {
                     '/zh/guide/': [
@@ -66,12 +70,12 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "基础信息"],
-								["Scene", "使用场景"],
+                                ["Scene", "使用场景"],
                             ]
                         },
                     ],
                     '/zh/docs/': [
-                      {
+                        {
                             title: "安装指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
@@ -79,17 +83,17 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                	["", "介绍"],
-									["store", "存储端安装"],
-									["download", "客户端安装"],									
-                                	["tutorial", "移动端基础教学"],
-                                	["pc", "PC端基础教学"],
-                                	["tv", "TV端基础教学"],                               	
-                                	["question", "常见问题"],
-                                    ["plan", "开发计划"],
-                                	["about", "联系我们"],
+                                ["", "介绍"],
+                                ["store", "存储端安装"],
+                                ["download", "客户端安装"],
+                                ["tutorial", "移动端基础教学"],
+                                ["pc", "PC端基础教学"],
+                                ["tv", "TV端基础教学"],
+                                ["question", "常见问题"],
+                                ["plan", "开发计划"],
+                                ["about", "联系我们"],
                             ]
-                      },
+                        },
                     ]
                 }
             },

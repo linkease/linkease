@@ -74,7 +74,7 @@ export default {
                     childer: [
                         {
                             label: "关于我们",
-                            value: "https://doc.linkease.com/zh/guide/linkease_client/about.html"
+                            value: "https://doc.linkease.com/zh/guide/about/"
                         },
                         {
                             label: "联系我们",

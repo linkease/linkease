@@ -54,7 +54,7 @@ module.exports = ctx => ({
                         { text: '头条号', link: 'https://bit.ly/3cFVAuY' },
                       ] },					
                     { text: '反馈',  items: [
-                        { text: '问题反馈', link: 'https://github.com/linkease/doc.linkease.com/issues' },
+                        { text: '问题反馈', link: 'https://github.com/linkease/linkease/issues' },
                         { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
                         { text: '关于我们', link: 'https://doc.linkease.com/zh/guide/about/' }
                       ] },

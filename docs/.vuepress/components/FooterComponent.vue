@@ -253,4 +253,24 @@ li {
         }
     }
 }
+
+@media screen and(max-width:375px) {
+    .footer {
+        .footer-content {
+            .content_text {
+                width: 100%;
+                .content_block {
+                    width: 100%;
+                    padding: 20px 34px;
+                    .content_list {
+                        flex: 0 0 100%;
+                        max-width: 50%;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
 </style>

@@ -101,10 +101,6 @@
             </div>
 
         </div>
-        <!-- 底部 -->
-        <div class="footer" :style="footerStyle">
-            <a href="https://beian.miit.gov.cn/" target="_blank" class="footer_info">版权所有2021易有云网络科技有限责任公司 <br />粤ICP备20024441号</a>
-        </div>
     </div>
 </template>
 
@@ -311,23 +307,6 @@ export default {
                     color: #717171;
                 }
             }
-        }
-    }
-    .footer {
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        width: 100%;
-        height: 213px;
-        background-size: cover;
-        margin-top: 16px;
-        .footer_info {
-            font-size: 12px;
-            font-weight: 400;
-            line-height: 18px;
-            color: #ffffff;
-            padding-bottom: 16px;
-            text-align: center;
         }
     }
 }

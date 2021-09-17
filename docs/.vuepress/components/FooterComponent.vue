@@ -30,7 +30,7 @@ export default {
                     childer: [
                         {
                             label: "易有云APP",
-                            value: "https://www.linkease.com",
+                            value: "https://app.linkease.com/",
                         },
                         {
                             label: "DDNSTO",
@@ -230,6 +230,37 @@ li {
 }
 @media screen and(max-width:1024px) {
     .footer {
+        .footer-content {
+            width: 100%;
+            max-width: 862px;
+            margin: 0 auto;
+            .content_text {
+                width: 100%;
+                .content_block {
+                    width: 100%;
+                    padding: 20px 0;
+                    .content_list {
+                        flex: 0 0 100%;
+                        max-width: 25%;
+                        margin-bottom: 14px;
+                        .content_title {
+                            padding-bottom: 6px;
+                        }
+                        a {
+                            margin-bottom: 6px;
+                        }
+                    }
+                }
+            }
+            .content_info {
+                padding-left: 30px;
+            }
+        }
+    }
+}
+@media screen and(max-width:718px) {
+    .footer {
+        margin-top: 30px;
         .footer-content {
             width: 100%;
             max-width: 862px;

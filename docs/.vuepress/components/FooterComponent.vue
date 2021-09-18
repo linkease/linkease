@@ -38,7 +38,7 @@ export default {
                         },
                         {
                             label: "iStore",
-                            value: "https://github.com/linkease/istore",
+                            value: "https://doc.linkease.com/zh/guide/istore/",
                         },
                         {
                             label: "EasePi",
@@ -124,8 +124,11 @@ export default {
             justify-content: space-between;
             flex-wrap: wrap;
             flex: 0 0 100%;
-            border-bottom: 1.5px solid;
+            border-bottom: 1.5px solid rgba(0, 0, 0, 0.7);
             margin-bottom: 10px;
+            border-top: 1.5px solid rgba(0, 0, 0, 0.7);
+            padding-top: 12px;
+            padding-bottom: 6px;
             .content_block {
                 display: flex;
                 justify-content: space-between;
@@ -183,9 +186,10 @@ li {
             margin: 0 auto;
             .content_text {
                 width: 100%;
+                padding-bottom: 0px;
                 .content_block {
                     width: 100%;
-                    padding: 20px 0;
+                    padding: 4px 0;
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
@@ -194,7 +198,7 @@ li {
                             padding-bottom: 6px;
                         }
                         a {
-                            margin-bottom: 6px;
+                            margin-top: 2px;
                         }
                     }
                 }
@@ -209,7 +213,7 @@ li {
                 width: 100%;
                 .content_block {
                     width: 100%;
-                    padding: 20px 0;
+                    padding: 10px 0;
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
@@ -217,10 +221,10 @@ li {
                         padding: 0;
                         margin-bottom: 14px;
                         .content_title {
-                            padding-bottom: 6px;
+                            padding-top: 6px;
                         }
                         a {
-                            margin-bottom: 6px;
+                            margin-bottom: 0px;
                         }
                     }
                 }
@@ -238,7 +242,7 @@ li {
                 width: 100%;
                 .content_block {
                     width: 100%;
-                    padding: 20px 0;
+                    padding: 10px 0;
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
@@ -323,7 +327,7 @@ li {
                 width: 100%;
                 .content_block {
                     width: 100%;
-                    padding: 20px 34px;
+                    padding: 0 34px;
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 50%;

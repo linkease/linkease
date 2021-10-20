@@ -18,7 +18,10 @@ module.exports = ctx => ({
     head: [
         [
             'link', { rel: 'icon', href: '/favicon.png' }
-        ]
+        ],
+        [
+            'script', { src: "/script/google-analytics.js" }
+        ],
     ],
     // 多语言
     locales: {

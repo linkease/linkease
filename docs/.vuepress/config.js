@@ -47,8 +47,8 @@ module.exports = ctx => ({
                     { text: '首页', link: '/' },
                     {
                         text: '指南', items: [
-                            { text: '易有云客户端', link: 'https://doc.linkease.com/zh/guide/linkease_client/' },
-                            { text: '易有云存储端', link: 'https://doc.linkease.com/zh/guide/linkease_server/' },
+                            { text: '易有云客户端', link: 'https://doc.linkease.com/zh/guide/linkease_app/' },
+                            { text: '易有云存储端', link: 'https://doc.linkease.com/zh/guide/linkease_storage/' },
                         ]
                     },
                     //{ text: '文档', link: '/zh/guide/' },

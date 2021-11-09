@@ -96,7 +96,7 @@
             </div>
             <div class="contact_content">
                 <div class="contact_tit">交流群</div>
-                <div class="contact_info">QQ交流群1~5群已满人，请加6群，群号：<a href="https://jq.qq.com/?_wv=1027&k=xEFyCx1h" target="_black">726390063</a>
+                <div class="contact_info">QQ交流群1~6群已满人，请加7群，群号：<a href="https://jq.qq.com/?_wv=1027&k=xEFyCx1h" target="_black">776787274</a>
                 </div>
             </div>
 

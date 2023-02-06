@@ -3,17 +3,19 @@
         <div class="footer-content max-width">
             <div class="content_text">
                 <div class="content_block">
-                    <template v-for="(item,i) in menus">
+                    <template v-for="(item, i) in menus">
                         <ul class="content_list" :key="i">
-                            <li class="content_title" :title="item.title">{{item.title}}</li>
-                            <template v-for="(ole,k) in item.childer">
-                                <li :key="k"><a :href="ole.value" :title="ole.label" target="_blank">{{ole.label}}</a></li>
+                            <li class="content_title" :title="item.title">{{ item.title }}</li>
+                            <template v-for="(ole, k) in item.childer">
+                                <li :key="k"><a :href="ole.value" :title="ole.label" target="_blank">{{ ole.label }}</a>
+                                </li>
                             </template>
                         </ul>
                     </template>
                 </div>
             </div>
-            <div class="content_info" title="易有云网络科技有限责任公司 Copyright © 2019-2021  备案号： 粤ICP备20024441号">易有云网络科技有限责任公司 Copyright © 2019-2021<br />
+            <div class="content_info" title="易有云网络科技有限责任公司 Copyright © 2019-2023  备案号： 粤ICP备20024441号">易有云网络科技有限责任公司
+                Copyright © 2019-2023<br />
                 <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号： 粤ICP备20024441号</a>
             </div>
         </div>
@@ -105,6 +107,7 @@ export default {
     word-wrap: break-word;
     outline: none;
 }
+
 .footer {
     // background-color: #f4f4f4;
     min-height: 234px;
@@ -112,12 +115,14 @@ export default {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
     .footer-content {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         max-width: 1174px;
         margin: 0 auto;
+
         .content_text {
             width: 902px;
             display: flex;
@@ -129,14 +134,17 @@ export default {
             border-top: 1.5px solid rgba(0, 0, 0, 0.7);
             padding-top: 12px;
             padding-bottom: 6px;
+
             .content_block {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
                 width: 1020px;
+
                 .content_list {
                     margin: 0;
                     padding: 0;
+
                     .content_title {
                         font-size: 16px;
                         font-family: PingFangSC-Semibold, PingFang SC;
@@ -145,6 +153,7 @@ export default {
                         line-height: 22px;
                         padding-bottom: 22px;
                     }
+
                     a {
                         display: block;
                         font-size: 14px;
@@ -154,25 +163,30 @@ export default {
                         line-height: 20px;
                         margin-bottom: 8px;
                     }
+
                     a:hover {
                         color: #0060ff;
                     }
                 }
             }
         }
+
         .content_info {
             flex: 0 0 100%;
             font-size: 12px;
             color: #8e8e8e;
+
             a {
                 color: #8e8e8e;
             }
+
             a:hover {
                 color: #0060ff;
             }
         }
     }
 }
+
 li {
     list-style: none;
 }
@@ -184,19 +198,24 @@ li {
             width: 100%;
             max-width: 1080px;
             margin: 0 auto;
+
             .content_text {
                 width: 100%;
                 padding-bottom: 0px;
+
                 .content_block {
                     width: 100%;
                     padding: 4px 0;
+
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
                         margin-bottom: 14px;
+
                         .content_title {
                             padding-bottom: 6px;
                         }
+
                         a {
                             margin-top: 2px;
                         }
@@ -206,23 +225,28 @@ li {
         }
     }
 }
+
 @media screen and(max-width:1300px) {
     .footer {
         .footer-content {
             .content_text {
                 width: 100%;
+
                 .content_block {
                     width: 100%;
                     padding: 10px 0;
+
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
                         margin: 0;
                         padding: 0;
                         margin-bottom: 14px;
+
                         .content_title {
                             padding-top: 6px;
                         }
+
                         a {
                             margin-bottom: 0px;
                         }
@@ -232,84 +256,104 @@ li {
         }
     }
 }
+
 @media screen and(max-width:1024px) {
     .footer {
         .footer-content {
             width: 100%;
             max-width: 862px;
             margin: 0 auto;
+
             .content_text {
                 width: 100%;
+
                 .content_block {
                     width: 100%;
                     padding: 10px 0;
+
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
                         margin-bottom: 14px;
+
                         .content_title {
                             padding-bottom: 6px;
                         }
+
                         a {
                             margin-bottom: 6px;
                         }
                     }
                 }
             }
+
             .content_info {
                 padding-left: 30px;
             }
         }
     }
 }
+
 @media screen and(max-width:718px) {
     .footer {
         margin-top: 30px;
+
         .footer-content {
             width: 100%;
             max-width: 862px;
             margin: 0 auto;
+
             .content_text {
                 width: 100%;
+
                 .content_block {
                     width: 100%;
                     padding: 20px 0;
+
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
                         margin-bottom: 14px;
+
                         .content_title {
                             padding-bottom: 6px;
                         }
+
                         a {
                             margin-bottom: 6px;
                         }
                     }
                 }
             }
+
             .content_info {
                 padding-left: 30px;
             }
         }
     }
 }
+
 @media screen and(max-width:900px) {
     .footer {
         .footer-content {
             .content_text {
                 width: 100%;
+
                 .content_block {
                     width: 100%;
                     padding: 0 30px;
+
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 50%;
                         margin: 0;
                         padding: 0;
                         margin-bottom: 14px;
+
                         .content_title {
                             padding-bottom: 6px;
                         }
+
                         a {
                             margin-bottom: 6px;
                         }
@@ -325,18 +369,22 @@ li {
         .footer-content {
             .content_text {
                 width: 100%;
+
                 .content_block {
                     width: 100%;
                     padding: 0 34px;
+
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 50%;
                         margin: 0;
                         padding: 0;
                         margin-bottom: 14px;
+
                         .content_title {
                             padding-bottom: 6px;
                         }
+
                         a {
                             margin-bottom: 6px;
                         }
